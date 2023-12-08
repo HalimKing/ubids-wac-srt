@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title> Finexo </title>
+  <title>UBIDS/WAC-SRT</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -46,38 +46,91 @@
 
     <!-- header section strats -->
     <header class="header_section">
+      <div class="top" style="display: flex; justify-content: space-between;">
+        <div class="p-2">
+          <i class="fa fa-phone">  +23300022222</i>
+          <i class="fa fa-envelope ml-3">  wacsrt@ubids.edu.gh</i>
+        </div>
+        <div class="p-2 ">
+          <a class="social" href=""><i class="fa fa-facebook-f"></i></a>
+          <a class="social" href=""><i class="fa fa-instagram"></i></a>
+          <a class="social" href=""><i class="fa fa-twitter-square"></i></a>
+          <a class="social" href=""><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <span>
-              Finexo
+            <span class="logo-text">
+              <img src="./images/logo.png" width="50" alt="">
+              WAC-SRT <br>
+              
             </span>
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button style="background-color: #00bbf0;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
-              <li class="nav-item ">
-                <a class="nav-link" href="index.html">Home </a>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="about.html"> About <span class="sr-only">(current)</span> </a>
+             
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> About </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li class="nav-item"><a class="dropdown-item nav-link" href="about.html">About Us</a></li>
+                  <li class="nav-item"><a class="dropdown-item nav-link" href="#"> Background</a></li>
+                  <li class="nav-item"><a class="dropdown-item nav-link" href="#">Resources</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> Programme</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li class="nav-item"><a class="dropdown-item nav-link" href="#">Undergraduate</a></li>
+                  <li class="nav-item"><a class="dropdown-item nav-link" href="#">Mphil Programme</a></li>
+                  <li class="nav-item"><a class="dropdown-item nav-link" href="#">Phd programme</a></li>
+                  <li class="nav-item"><a class="dropdown-item nav-link" href="#">Other courses</a></li>
+                  <li class="nav-item"><a class="dropdown-item nav-link" href="#">Facility</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> Students</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li class="nav-item "><a class="dropdown-item nav-link" href="#">Undergraduate</a></li>
+                  <li class="nav-item "><a class="dropdown-item nav-link" href="#">Mphil</a></li>
+                  <li class="nav-item "><a class="dropdown-item nav-link" href="#">Phd</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> Projects</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li class="nav-item "><a class="dropdown-item nav-link" href="#">Project Documentation</a></li>
+                  <li class="nav-item "><a class="dropdown-item nav-link" href="#"></a></li>
+                  
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">News & Events</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li class="nav-item "><a class="dropdown-item nav-link" href="#">News</a></li>
+                  <li class="nav-item "><a class="dropdown-item nav-link" href="#">Events</a></li>
+                  <li class="nav-item "><a class="dropdown-item nav-link" href="#">Conference</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="">Contact Us</a>
+
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="why.html">Why Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="team.html">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
-              </li>
+              
+              
               <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
@@ -93,26 +146,26 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section class="about_section section-p1">
     <div class="container  ">
       <div class="heading_container heading_center">
         <h2>
           About <span>Us</span>
         </h2>
         <p>
-          Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum ipsum voluptatibus
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo dolore aut accusantium enim labore incidunt fuga, sunt qui repellat ad. Assumenda, dignissimos quod quasi vitae magni cumque? Corporis, obcaecati earum.
         </p>
       </div>
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="images/about-img.png" alt="">
+            <img src="images/aboutImage.jpg" alt="">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
             <h3>
-              We Are Finexo
+              Who Are We
             </h3>
             <p>
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
@@ -132,11 +185,24 @@
     </div>
   </section>
 
+
+  <section id="mission-vission" class="section-p1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="" alt="">
+          <h1>Our <span>Mission</span></h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis praesentium dolor porro obcaecati sequi harum, est, veritatis ad animi odit illum, numquam veniam fugiat? Amet nesciunt officia animi minus architecto.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
   <!-- end about section -->
 
   <!-- info section -->
 
-  <section class="info_section layout_padding2">
+  <section class="info_section ">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-3 info_col">

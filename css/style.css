@@ -285,7 +285,7 @@ a:focus {
           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(19, 228, 106, 0.4)), url("../images/cover.png");
           background-position: center;
           background-size: cover;
-          background-repeat: repeat;
+          background-attachment: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1050,15 +1050,27 @@ a.social:hover{
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   text-align: left;
   color: rgb(18, 139, 7);
+  position: relative;
 
 }
-.custom_nav-container .navbar-nav .nav-item .nav-link:hover{
-  /* background-color: #003875; */
+.custom_nav-container .navbar-nav .nav-item .dropdown-menu .nav-link:hover{
+  
   border-radius: 0;
   border-bottom: 2px solid #003875;
   /* color: #ffff; */
 }
-
+.custom_nav-container .navbar-nav .nav-item .nav-link.active{
+  font-weight: 600;
+}
+.custom_nav-container .navbar-nav .nav-item .nav-link.active::before{
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: rgb(18, 139, 7);
+}
 
 
 /* feature section */
@@ -1119,6 +1131,102 @@ a.social:hover{
   background-position: top 50%;
   background-attachment: fixed;
 }
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *******************About Page ******************/
+
+.about_section{
+  margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
