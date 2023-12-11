@@ -177,6 +177,7 @@ a:focus {
 
 .custom_nav-container {
   padding: 0;
+  
 }
 .header_section{
   background-color: #ffffff;
@@ -185,6 +186,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav {
   margin-left: auto;
+  
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
@@ -1168,6 +1170,128 @@ a.social:hover{
 }
 
 
+#mission-vission{
+  padding: 100px 50px;
+}
+#mission-vission  img{
+  width: 100px;
+}
+
+#mission-vission .mission,
+#mission-vission .vision,
+#mission-vission .values{
+  text-align: center;
+}
+#mission-vission h1{
+  font-weight: 800;
+}
+#mission-vission h1 span{
+  color: rgb(18, 139, 7);
+}
+
+
+
+
+
+
+/*  */
+/* 
+#myself .content{
+  display: flex;
+
+} */
+#myself.image-container{
+  width: 100%;
+  height: 60vh;
+}
+#myself .image-container img{
+  width: 100%;
+}
+#myself.detail-box{
+  margin-left: 50px;
+  width: 100%;
+}
+#myself .detail-box h2{
+  font-weight: 700;
+}
+
+
+
+
+/* ********************* Resources Page ****************/
+#resources-hero{
+  background-color: #003875;
+  height: 30vh;
+  z-index: -999;
+  margin-top: 190px;
+  text-align: center;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#resources-info .middle-line{
+  width: 5px; 
+  height: 100%; 
+  background-color: #555252;
+  border-radius: 10px;
+}
+#resources-info .resourse-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#resources-info .resourse-title h1{
+  font-weight: 700;
+  color: #555252;
+}
+h6{
+  color: #555252;
+}
+#resources-info .detail-box{
+  display: flex;
+  flex-direction: column;
+}
+#resources-info .detail-box a{
+  font-size: 20px;
+  transition: 0.2s ease-in;
+}
+
+
+
+
+/* Background Page */
+#background-hero{
+  /* position: relative; */
+  margin-top: 150px;
+  background-image: url("../assets/images/background-hero.jpg");
+  
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  background-attachment: fixed;
+}
+
+#background-info h2{
+  position: relative;
+}
+
+#background-info h2::before{
+  position: absolute;
+  left: 3px;
+  top: 33px;
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: #00bbf0;
+
+}
+
+#background-info .detail-box{
+  text-align: left;
+}
 
 
 
@@ -1175,11 +1299,25 @@ a.social:hover{
 
 
 
+.sub_nav{
+  /* background-color: red; */
+  
+  width: 100%;
+  z-index: 0;
+  margin-top: 20px;
+  
+}
 
 
 
 
 
+@media (max-width: 977px){
+  #background-hero {
+    background-position: center;
+    
+  }
+}
 
 
 
