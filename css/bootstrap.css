@@ -159,7 +159,7 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
+  /* color: #0056b3; */
   text-decoration: underline;
 }
 
@@ -4067,6 +4067,7 @@ input[type="button"].btn-block {
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  color: black;
 }
 
 .nav-link.disabled {
